@@ -1,0 +1,221 @@
+html, body{
+    margin: 0;
+}
+
+.tabcontent .container{
+    left: 0;
+    top: 0;
+    width: 95vw;
+    height: 75vh;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.tabcontent .box1{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    margin-left: 4vh;
+    background-color: steelblue;
+    float: left;
+}
+
+.tabcontent .box2{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: sienna;
+    float: right;
+    clear: right;
+}
+
+.tabcontent .box3{
+    height: 20vh;
+    width: 92vw;
+    margin: 2vh;
+    background-color: seagreen;
+    clear: right;
+    float: right;
+}
+
+.tabcontent .box4{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: seagreen;
+    float: right;
+}
+
+.tabcontent .box5{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: sienna;
+    float: right;
+    clear: right;
+}
+
+.tabcontent .box6{
+    height: 20vh;
+    width: 93vw;
+    margin: 2vh;
+    background-color: steelblue;
+    clear: right;
+    float: right;
+}
+
+.tabcontent .box7{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: seagreen;
+    float: right;
+}
+
+.tabcontent .box8{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: sienna;
+    float: right;
+    clear: right;
+}
+
+.tabcontent .box9{
+    height: 20vh;
+    width: 20vh;
+    margin: 2vh;
+    background-color: steelblue;
+    clear: right;
+    float: right;
+}
+
+.tab{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover{
+    background-color: #ddd;
+}
+
+.tab button:active{
+    background-color: #ccc;
+}
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+
+/* Schema2 */
+
+/*
+
+.container{
+    left: 0;
+    top: 0;
+    width: 95vw;
+    height: 95vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.box1{
+    width: 20vw;
+    height: 32.5vh;
+    border: solid 2px red;
+    background-color: seagreen;
+    margin-right: 1vw;
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+
+.box2{
+    width: 20vw;
+    height: 32.5vh;
+    border: solid 2px red;
+    background-color: sienna;
+    margin-top: 4vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.box3{
+    width: 92.7vw;
+    height: 15vh;
+    border: solid 2px red;
+    background-color: steelblue;
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+*/
+
+/* Schema3 */
+
+/*
+
+.container{
+    left: 0;
+    top: 0;
+    width: 95vw;
+    height: 95vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.box1{
+    width: 20vw;
+    height: 27vh;
+    border: solid 2px red;
+    background-color: seagreen;
+    margin-right: 1vw;
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+
+.box2{
+    width: 20vw;
+    height: 27vh;
+    border: solid 2px red;
+    background-color: sienna;
+    margin-top: 4vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.box3{
+    width: 20vw;
+    height: 27vh;
+    border: solid 2px red;
+    background-color: steelblue;
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+
+*/
